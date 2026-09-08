@@ -1,0 +1,76 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Robots-Tag", "value": "noindex, nofollow" },
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "therapeutic-massage.cajunsites.com" }],
+      "destination": "/therapeutic-massage/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "follicle-hair-solutions.cajunsites.com" }],
+      "destination": "/follicle-hair-solutions/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "were-all-en-learning-center.cajunsites.com" }],
+      "destination": "/were-all-en-learning-center/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "dke-cleaning-services.cajunsites.com" }],
+      "destination": "/dke-cleaning-services/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "divaology-hair-studio.cajunsites.com" }],
+      "destination": "/divaology-hair-studio/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "the-diesel-lab.cajunsites.com" }],
+      "destination": "/the-diesel-lab/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "up-to-code-plumbing.cajunsites.com" }],
+      "destination": "/up-to-code-plumbing/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "southern-classic-automotives.cajunsites.com" }],
+      "destination": "/southern-classic-automotives/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "vinces-auto-repair.cajunsites.com" }],
+      "destination": "/vinces-auto-repair/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "dm-and-m-auto.cajunsites.com" }],
+      "destination": "/dm-and-m-auto/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "artistic-designs-flower-shoppe.cajunsites.com" }],
+      "destination": "/artistic-designs-flower-shoppe/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "the-pottings-shed-florist.cajunsites.com" }],
+      "destination": "/the-pottings-shed-florist/$1"
+    }
+  ]
+}
