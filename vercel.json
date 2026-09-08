@@ -71,6 +71,18 @@
       "source": "/(.*)",
       "has": [{ "type": "host", "value": "the-pottings-shed-florist.cajunsites.com" }],
       "destination": "/the-pottings-shed-florist/$1"
-    }
+    },
+    { "source": "/therapeutic-massage", "destination": "/therapeutic-massage/index.html" },
+    { "source": "/follicle-hair-solutions", "destination": "/follicle-hair-solutions/index.html" },
+    { "source": "/were-all-en-learning-center", "destination": "/were-all-en-learning-center/index.html" },
+    { "source": "/dke-cleaning-services", "destination": "/dke-cleaning-services/index.html" },
+    { "source": "/divaology-hair-studio", "destination": "/divaology-hair-studio/index.html" },
+    { "source": "/the-diesel-lab", "destination": "/the-diesel-lab/index.html" },
+    { "source": "/up-to-code-plumbing", "destination": "/up-to-code-plumbing/index.html" },
+    { "source": "/southern-classic-automotives", "destination": "/southern-classic-automotives/index.html" },
+    { "source": "/vinces-auto-repair", "destination": "/vinces-auto-repair/index.html" },
+    { "source": "/dm-and-m-auto", "destination": "/dm-and-m-auto/index.html" },
+    { "source": "/artistic-designs-flower-shoppe", "destination": "/artistic-designs-flower-shoppe/index.html" },
+    { "source": "/the-pottings-shed-florist", "destination": "/the-pottings-shed-florist/index.html" }
   ]
 }
